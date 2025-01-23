@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px){
+
+    .flex > div{
+        flex-basis: calc( 90% / 2 );
+    
+        background-color: #121212;
+    
+        margin-block: 10px;
+    
+        color: white;
+    
+    }
+
+}

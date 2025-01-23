@@ -1,0 +1,18 @@
+@media screen and (min-width: 480px){
+
+    .flex > div{
+        
+    
+        background-color: #121212;
+    
+        margin-block: 10px;
+    
+        color: white;
+    
+    }
+    .figure_style{
+        margin: 0 auto;
+        width: 70%;
+        }
+
+}
