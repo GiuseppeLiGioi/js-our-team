@@ -55,4 +55,26 @@ let container = document.getElementById('container');
             </div>
 
     `
+
+    let nome = document.getElementById('name').value;
+    let role = document.getElementById('role').value;
+    let email = document.getElementById('email').value;
+    let immagine = document.getElementById('img').value;
+    let bottone = document.getElementById('btn');
+
+    bottone.addEventListener("click" , function(event){
+      event.preventDefault();
+      
+      teamMembers.push(
+        {
+          nome,
+          role,
+          email,
+          immagine
+        }
+      )
+
+
+      console.log(teamMembers)
+    })
   }
