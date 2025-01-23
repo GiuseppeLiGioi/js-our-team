@@ -13,17 +13,28 @@ header{
 
 h1{
     margin-block: 20px;
+    color: purple;
+}
+h3{
+    font-size: 20px;
+}
+div > span{
+    font-size: 15px;
 }
 
 main{
     padding: 0 10px;
 }
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 .flex{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
-    gap: 5%;
+   
 }
 
 .flex > div{
@@ -36,6 +47,10 @@ main{
     color: white;
 
 }
+.figure_style{
+display: inline-block;
+width: 50%;
+}
 
 span{
     font-size: 12px;
@@ -44,4 +59,8 @@ span{
 .flex-column{
     flex-direction: column;
     width: 100%;
+}
+
+.blue_span{
+    color: aqua;
 }

@@ -36,3 +36,23 @@ const teamMembers = [
       img: "img/female3.png"
     }
   ];
+
+let container = document.getElementById('container');
+  for( let i = 0; i < teamMembers.length; i++){
+    let element = teamMembers[i];
+
+
+    container.innerHTML += `
+       <div class="flex">
+                <figure>
+                    <img class="figure_style" src=${element.img} alt=${element.name}
+                </figure>
+                <div class="flex flex-column">
+                    <h3>${element.name}</h3>
+                    <span>${element.role}</span>
+                    <span class="blue_span">${element.email}</span>
+                </div>
+            </div>
+
+    `
+  }
